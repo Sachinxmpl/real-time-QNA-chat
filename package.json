@@ -1,0 +1,20 @@
+{
+  "name": "real-time-qna-chat",
+  "version": "1.0.0",
+  "description": "Simple model using express and ws server \r Intended for following tasks \r - Allow admin(teacher) to create a new chat room and set properties on the room\r - Allow users to join and send messages\r - Allow users to upvote chat message (message like doubt during teaching session)\r - If message reaches ome x no of upvotes move them to queue of questions\r - - if message reaches more that around 15 votes direclty send the question to the admin (teacher)to answer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.0",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/ws": "^8.5.12"
+  }
+}
